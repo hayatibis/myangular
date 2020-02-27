@@ -1,3 +1,5 @@
+require('karma-verbose-reporter')
+
 module.exports = function(config) {
 	config.set({
 		frameworks: ['browserify', 'jasmine'],
